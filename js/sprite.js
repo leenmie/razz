@@ -9,8 +9,7 @@ var Sprite = function(ctx, image, pos_x, pos_y, width, height, n_frame, speed) {
 	this._index = 0;
 	this._stop_animation = false;
 	this.pivot = {x: width/2, y: height/2};
-	this.angle = 0;
-	this.center = {x: this.position.x + this.pivot.x, y: this.position.y + this.pivot.y};
+	this.angle = 0;	
 };
 
 Sprite.prototype.update = function(dt) {
